@@ -22,6 +22,7 @@ int main()
           bool,
            float,
             double,
+             char,
     }
     */
 
@@ -46,10 +47,16 @@ int main()
     // double for numbers with (.) example (1.2222222222222222) 14 numbers after (.)
     double z = 2.25;
     cout << z << endl;
+    // char indlude single character/letter/number
+    char ac = 'a';
+    char an = 1;
+    cout << ac << endl;
+    cout << an << endl;
 
     // Cin
     int i;
     // make ask in the console
+    cout << "Type Anything: ";
     cin >> i;
     // print the answer in the output
     cout << i << endl;
