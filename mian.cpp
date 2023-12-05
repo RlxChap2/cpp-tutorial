@@ -61,6 +61,48 @@ int main()
     // print the answer in the output
     cout << i << endl;
 
+    // Use the if statement to specify a block of C++ code to be executed if a condition is true or Comparing two numbers
+    int x = 20;
+    int y = 18;
+    if (x > y)
+    {
+        cout << "x is greater than y";
+    }
+
+    // Use the else statement to specify a block of code to be executed if the condition is false.
+    int time = 20;
+    if (time < 18)
+    {
+        cout << "Good day.";
+    }
+    else
+    {
+        cout << "Good evening.";
+    }
+    // Outputs "Good evening."
+
+    // Use the else if statement to specify a new condition if the first condition is false.
+    int time2 = 22;
+    if (time2 < 10)
+    {
+        cout << "Good morning.";
+    }
+    else if (time2 < 20)
+    {
+        cout << "Good day.";
+    }
+    else
+    {
+        cout << "Good evening.";
+    }
+    // Outputs "Good evening."
+
+    // There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
+    // It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements:
+    int time3 = 20;
+    string result = (time3 < 18) ? "Good day." : "Good evening.";
+    cout << result;
+
     // Stop the code
     return 0;
 }
