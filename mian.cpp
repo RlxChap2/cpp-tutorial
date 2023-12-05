@@ -56,28 +56,28 @@ int main()
     // Cin
     int i;
     // make ask in the console
-    cout << "Type Anything: ";
+    cout << "Type Anything: " << endl;
     cin >> i;
     // print the answer in the output
     cout << i << endl;
 
     // Use the if statement to specify a block of C++ code to be executed if a condition is true or Comparing two numbers
-    int x = 20;
-    int y = 18;
-    if (x > y)
+    int v = 20;
+    int w = 18;
+    if (v > w)
     {
-        cout << "x is greater than y";
+        cout << "x is greater than y" << endl;
     }
 
     // Use the else statement to specify a block of code to be executed if the condition is false.
     int time = 20;
     if (time < 18)
     {
-        cout << "Good day.";
+        cout << "Good day." << endl;
     }
     else
     {
-        cout << "Good evening.";
+        cout << "Good evening." << endl;
     }
     // Outputs "Good evening."
 
@@ -85,15 +85,15 @@ int main()
     int time2 = 22;
     if (time2 < 10)
     {
-        cout << "Good morning.";
+        cout << "Good morning." << endl;
     }
     else if (time2 < 20)
     {
-        cout << "Good day.";
+        cout << "Good day." << endl;
     }
     else
     {
-        cout << "Good evening.";
+        cout << "Good evening." << endl;
     }
     // Outputs "Good evening."
 
@@ -102,6 +102,20 @@ int main()
     int time3 = 20;
     string result = (time3 < 18) ? "Good day." : "Good evening.";
     cout << result;
+
+    // The example below will print the numbers 0 to 4:
+    for (int k; k < 5; k++)
+    {
+        cout << k << "\n";
+    }
+
+    // The example below will print the numbers 0 to 5:
+    for (int j; j <= 5; j++)
+    {
+        cout << j << "\n";
+    }
+
+    // Continue -> https://www.w3schools.com/cpp/cpp_break.asp
 
     // Stop the code
     return 0;
