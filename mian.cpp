@@ -117,6 +117,28 @@ int main()
 
     // Continue -> https://www.w3schools.com/cpp/cpp_break.asp
 
+    // The break statement can also be used to jump out of a loop.
+    for (int v; v < 10; v++)
+    {
+        // This example jumps out of the loop when i is equal to 4:
+        if (v == 4)
+        {
+            break;
+        }
+        cout << v << "\n";
+    }
+
+    // The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+    for (int q; q < 10; q++)
+    {
+        //  This example skips the value of 4:
+        if (q == 4)
+        {
+            continue;
+        }
+        cout << q << "\n";
+    }
+
     // Stop the code
     return 0;
 }
