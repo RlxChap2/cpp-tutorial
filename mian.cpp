@@ -383,8 +383,9 @@ int main()
     /*
     -> All Tutorials in folder /src/examples
     - or W3schools Website: https://www.w3schools.com/cpp/default.asp
+    - or from my github account: https://github.com/RlxChap2/cpp-tutorial/tree/main/src/examples
 
     -> All my projects in folder /src/projects
-    - https://
+    - or from my github account: https://github.com/RlxChap2/cpp-tutorial/tree/main/src/projects
     */
 }
